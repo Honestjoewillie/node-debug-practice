@@ -1677,7 +1677,7 @@
 	_.prototype.toString = function() {
 	  return String(this._wrapped);
 	};
-  
+ 
 	// AMD registration happens at the end for compatibility with AMD loaders
 	// that may not enforce next-turn semantics on modules. Even though general
 	// practice for AMD registration is to be anonymous, underscore registers

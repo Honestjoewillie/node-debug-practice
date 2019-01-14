@@ -35084,6 +35084,7 @@ Fraction.prototype.toJSON = function () {
  */
 
 
+
 Fraction.fromJSON = function (json) {
   return new Fraction(json);
 };
@@ -55959,7 +55960,9 @@ module.exports = [__webpack_require__(321), __webpack_require__(322), __webpack_
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+global.comeFindMe = function(){
+  console.log("where am I?");
+}
 
 var deepMap = __webpack_require__(0);
 

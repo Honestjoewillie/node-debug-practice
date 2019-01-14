@@ -9,5 +9,8 @@ Fork, clone, debug index.js
    * debug functions.js. What is the value of startingNumber immediately before the loop executes? after the loop executes. 
  3. Function calls
    * It may be difficult to determine what code called a function.
-   * debug functions.js.  Where is this function being called from? 
+   * debug functions.js.  What file and line number is this function being called from? 
+ 4. Where is a function
+   * You may see a function call and need to know where that function is defined
+   * Step into index.js line 10, what file and line number is the function `comeFindMe` defined.
 
